@@ -1,884 +1,1540 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
+  <head>
     <title>FRW Shop</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    
     <!-- Подключение Bootstrap 5.3.3 CSS локально -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
     <!-- Подключение Bootstrap 5.3.3 CSS через CDN
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <!-- Иконки -->
-    <link rel="frw-touch-icon" href="assets/img/frw-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="frw-touch-icon" href="assets/img/frw-icon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
 
     <!-- Загрузка стилей шрифтов -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
 
     <!-- Стили -->
-    <link rel="stylesheet" href="assets/css/frw_styles.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/frw_styles.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
     <!-- Листалка -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- Подключение Bootstrap 5.3.3 JS локально -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Подключение Bootstrap 5.3.3 JS через CDN
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
 
-    
     <!-- Верхняя панелька -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="frw_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="text-light text-decoration-none" href="https://vk.com/petrucho_t/" target="_blank" rel="sponsored">vk.com/petrucho_t</a>
-                
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+7(924)834-88-86">+7(924)834-88-86</a>
-                </div>
-                <div>
-                    <a class="text-light" href="https://t.me/+XrQj3OBediU0NjUy" target="_blank" rel="sponsored"><i class="fab fa-telegram-plane fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://vk.com/fr.workshop/" target="_blank"><i class="fab fa-vk fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://vk.com/petrucho_t" target="_blank"><i class="fas fa-envelope fa-sm fa-fw me-2"></i></a>
-                </div>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block"
+      id="frw_nav_top"
+    >
+      <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+          <div>
+            <i class="fa fa-envelope mx-2"></i>
+            <a
+              class="text-light text-decoration-none"
+              href="https://vk.com/petrucho_t/"
+              target="_blank"
+              rel="sponsored"
+              >vk.com/petrucho_t</a
+            >
+
+            <i class="fa fa-phone mx-2"></i>
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="tel:+7(924)834-88-86"
+              >+7(924)834-88-86</a
+            >
+          </div>
+          <div>
+            <a
+              class="text-light"
+              href="https://t.me/+XrQj3OBediU0NjUy"
+              target="_blank"
+              rel="sponsored"
+              ><i class="fab fa-telegram-plane fa-sm fa-fw me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://vk.com/fr.workshop/"
+              target="_blank"
+              ><i class="fab fa-vk fa-sm fa-fw me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://vk.com/petrucho_t"
+              target="_blank"
+              ><i class="fas fa-envelope fa-sm fa-fw me-2"></i
+            ></a>
+          </div>
         </div>
+      </div>
     </nav>
     <!-- Верхняя панелька -->
 
-
     <!-- Хэдэр -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a
+          class="navbar-brand text-success logo h1 align-self-center"
+          href="index.html"
+        >
+          FRW
+        </a>
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                FRW
-            </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#frw_main_nav"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#frw_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="frw_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Домой</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">О нас</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Магазин</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Связь с нами</a>
-                        </li>
-                    </ul>
+        <div
+          class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+          id="frw_main_nav"
+        >
+          <div class="flex-fill">
+            <ul
+              class="nav navbar-nav d-flex justify-content-between mx-lg-auto"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Домой</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Магазин</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Связь с нами</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar align-self-center d-flex">
+            <div
+              class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3"
+            >
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputMobileSearch"
+                  placeholder="Search ..."
+                />
+                <div class="input-group-text">
+                  <i class="fa fa-fw fa-search"></i>
                 </div>
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#frw_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
-                </div>
+              </div>
             </div>
-
+            <a
+              class="nav-icon d-none d-lg-inline"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#frw_search"
+            >
+              <i class="fa fa-fw fa-search text-dark mr-2"></i>
+            </a>
+            <div class="basket">
+              <a
+                class="nav-icon position-relative text-decoration-none"
+                href="#"
+              >
+                <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                <span
+                  class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"
+                  >&#x200b;</span
+                >
+              </a>
+            </div>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+              <i class="fa fa-fw fa-user text-dark mr-3"></i>
+              <span
+                class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"
+                >+99</span
+              >
+            </a>
+          </div>
         </div>
+      </div>
     </nav>
     <!-- Закрытие Хэдэра -->
 
     <!-- Модальное окошко поиска -->
-    <div class="modal fade bg-white" id="frw_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Найти ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
+    <div
+      class="modal fade bg-white"
+      id="frw_search"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="w-100 pt-1 mb-5 text-right">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
         </div>
+        <form
+          action=""
+          method="get"
+          class="modal-content modal-body border-0 p-0"
+        >
+          <div class="input-group mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="inputModalSearch"
+              name="q"
+              placeholder="Найти ..."
+            />
+            <button
+              type="submit"
+              class="input-group-text bg-success text-light"
+            >
+              <i class="fa fa-fw fa-search text-white"></i>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
     <!-- Закрыто модальное окошко -->
 
-
-
     <!-- Товар -->
     <section class="bg-light">
-        <div class="container pb-5">
-            <div class="row">
-                <div class="col-lg-5 mt-5">
-                    <div class="card mb-3">
-                        <img class="card-img img-fluid" src="assets/img/inshop.png" alt="Card image cap" id="product-detail">
-                    </div>
-                    <div class="row">
-                        <div class="col-1 align-self-center">
-                            <a href="#multi-item-example" role="button" data-bs-slide="prev">
-                                <i class="text-dark fas fa-chevron-left"></i>
-                                <span class="sr-only">Прошлый</span>
-                            </a>
-                        </div>
-                        <!--Каруселька -->
-                        <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel">
-                            <!--Слайдер-->
-                            <div class="carousel-inner product-links-wap" role="listbox">
-
-                                <!--Первый слайд-->
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop.png" alt="Product Image 1">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop2.png" alt="Product Image 2">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop3.png" alt="Product Image 3">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Конец первого слайдера-->
-
-                                <!--Второй слайдер-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop5.png" alt="Product Image 4">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop3.png" alt="Product Image 5">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop2.png" alt="Product Image 6">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Конец второго слайдера-->
-
-                                <!--Третий слайдер-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop.png" alt="Product Image 7">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop2.png" alt="Product Image 8">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/inshop4.png" alt="Product Image 9">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Конец третьего слайдера-->
-                            </div>
-                            <!--Конец слайдера-->
-                        </div>
-                        <!--Конец карусельки-->
-                
-                        <div class="col-1 align-self-center">
-                            <a href="#multi-item-example" role="button" data-bs-slide="next">
-                                <i class="text-dark fas fa-chevron-right"></i>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                 
-                    </div>
-                </div>
-               
-                <div class="col-lg-7 mt-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class="h2">E&L AKS-74UN</h1>
-                            <p class="h3 py-2">26 840₽</p>
-                            <p class="py-2">
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-secondary"></i>
-                                <span class="list-inline-item text-dark">Rating 4.5 | 5 Comments</span>
-                            </p>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h6>Бренд:</h6>
-                                </li>
-                                <li class="list-inline-item">
-                                    <p><strong>E&L</strong></p>
-                                </li>
-                            </ul>
-
-                            <h6>Описание:</h6>
-                            <p>Страйкбольный автомат E&L EL-A104S – это электропневматическая реплика непревзойденного укороченного АКС-74 от известного азиатского производителя. Модель отличает качество сборки, использование стали и серьезный запас прочности для установки мощной пружины. АКС-74У имеет аккумуляторный отсек под крышкой ствольной коробки, с разъемом AK-type.</p>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h6>Материалы :</h6>
-                                </li>
-                                <li class="list-inline-item">
-                                    <p><strong>ABS-пластик, сталь, дерево</strong></p>
-                                </li>
-                            </ul>
-
-                            <h6>Характеристики:</h6>
-                            <ul class="list-unstyled pb-3">
-                                <li>Версия гирбокса: V3</li>
-                                <li>Вес: 2990 г</li>
-                                <li>Длина общая: 740 мм</li>
-                                <li>Длина внутреннего стволика: 210 мм</li>
-                                <li>Начальная скорость 0,2 шаром: ~120 — 130</li>
-                                <li>Калибр: 6мм</li>
-                                <li>Комплектность: Механический магазин, инструкция, коробка.</li>
-                            </ul>
-
-                            <form action="" method="GET">
-                                <input type="hidden" name="product-title" value="Activewear">
-                                <div class="row">
-                                   
-                                    <div class="col-auto">
-                                        <ul class="list-inline pb-3">
-                                            <li class="list-inline-item text-right">
-                                                Количество
-                                                <input type="hidden" name="product-quanity" id="product-quanity" value="1">
-                                            </li>
-                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
-                                            <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
-                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row pb-3">
-                                    <div class="col d-grid">
-                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy">Купить</button>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="addtocard">Добавить в корзину</button>
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-lg-5 mt-5">
+            <div class="card mb-3">
+              <img
+                class="card-img img-fluid"
+                src="assets/img/inshop.png"
+                alt="Card image cap"
+                id="product-detail"
+              />
             </div>
+            <div class="row">
+              <div class="col-1 align-self-center">
+                <a
+                  href="#multi-item-example"
+                  role="button"
+                  data-bs-slide="prev"
+                >
+                  <i class="text-dark fas fa-chevron-left"></i>
+                  <span class="sr-only">Прошлый</span>
+                </a>
+              </div>
+              <!--Каруселька -->
+              <div
+                id="multi-item-example"
+                class="col-10 carousel slide carousel-multi-item"
+                data-bs-ride="carousel"
+              >
+                <!--Слайдер-->
+                <div class="carousel-inner product-links-wap" role="listbox">
+                  <!--Первый слайд-->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop.png"
+                            alt="Product Image 1"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop2.png"
+                            alt="Product Image 2"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop3.png"
+                            alt="Product Image 3"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Конец первого слайдера-->
+
+                  <!--Второй слайдер-->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop5.png"
+                            alt="Product Image 4"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop3.png"
+                            alt="Product Image 5"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop2.png"
+                            alt="Product Image 6"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Конец второго слайдера-->
+
+                  <!--Третий слайдер-->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop.png"
+                            alt="Product Image 7"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop2.png"
+                            alt="Product Image 8"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="#">
+                          <img
+                            class="card-img img-fluid"
+                            src="assets/img/inshop4.png"
+                            alt="Product Image 9"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Конец третьего слайдера-->
+                </div>
+                <!--Конец слайдера-->
+              </div>
+              <!--Конец карусельки-->
+
+              <div class="col-1 align-self-center">
+                <a
+                  href="#multi-item-example"
+                  role="button"
+                  data-bs-slide="next"
+                >
+                  <i class="text-dark fas fa-chevron-right"></i>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="h2">E&L AKS-74UN</h1>
+                <p class="price">26 840₽</p>
+                <p class="py-2">
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <span class="list-inline-item text-dark"
+                    >Rating 4.5 | 5 Comments</span
+                  >
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <h6>Бренд:</h6>
+                  </li>
+                  <li class="list-inline-item">
+                    <p><strong>E&L</strong></p>
+                  </li>
+                </ul>
+
+                <h6>Описание:</h6>
+                <p>
+                  Страйкбольный автомат E&L EL-A104S – это электропневматическая
+                  реплика непревзойденного укороченного АКС-74 от известного
+                  азиатского производителя. Модель отличает качество сборки,
+                  использование стали и серьезный запас прочности для установки
+                  мощной пружины. АКС-74У имеет аккумуляторный отсек под крышкой
+                  ствольной коробки, с разъемом AK-type.
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <h6>Материалы :</h6>
+                  </li>
+                  <li class="list-inline-item">
+                    <p><strong>ABS-пластик, сталь, дерево</strong></p>
+                  </li>
+                </ul>
+
+                <h6>Характеристики:</h6>
+                <ul class="list-unstyled pb-3">
+                  <li>Версия гирбокса: V3</li>
+                  <li>Вес: 2990 г</li>
+                  <li>Длина общая: 740 мм</li>
+                  <li>Длина внутреннего стволика: 210 мм</li>
+                  <li>Начальная скорость 0,2 шаром: ~120 — 130</li>
+                  <li>Калибр: 6мм</li>
+                  <li>
+                    Комплектность: Механический магазин, инструкция, коробка.
+                  </li>
+                </ul>
+
+                <form action="" method="GET">
+                  <input
+                    type="hidden"
+                    name="product-title"
+                    value="Activewear"
+                  />
+                  <div class="row">
+                    <div class="col-auto">
+                      <ul class="list-inline pb-3">
+                        <li class="list-inline-item text-right">
+                          Количество
+                          <input
+                            type="hidden"
+                            name="product-quanity"
+                            id="product-quanity"
+                            value="1"
+                          />
+                        </li>
+                        <li class="list-inline-item">
+                          <span class="kolvo" id="var-value"></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row pb-3">
+                    <div class="col d-grid">
+                      <button
+                        type="submit"
+                        class="btn btn-success btn-lg"
+                        name="submit"
+                        value="buy"
+                      >
+                        Купить
+                      </button>
+                    </div>
+                    <div class="col d-grid">
+                      <button
+                        type="submit"
+                        class="button_basket"
+                        data-sb-id-or-vendor-code="AK"
+                        data-sb-product-name="E&L AKS-74UN"
+                        data-sb-product-price="26840"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="assets/img/inshop.png"
+                        name="submit"
+                        value="addtocard"
+                      >
+                        Добавить в корзину
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- товар конец -->
 
     <!-- Рекомендуемые -->
     <section class="py-5">
-        <div class="container">
-            <div class="row text-left p-2 pb-3">
-                <h4>Рекомендуемые товары</h4>
-            </div>
-
-            <!--Каруселька-->
-            <div id="carousel-related-product">
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar1.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Green gas 1000ml KPS</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Производитель: KPS</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">650₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar2.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Набор магазинов E&L RK-74</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Тип: механический</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">5 800₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar3.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Green gas MARUI тип 650ml FL</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Производитель: FL-airsoft</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">1 500₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar4.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">ПУ "Kick Shell"</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Производитель: TAG Innovation</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">7 200₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar5.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Рукоятка для серии АК</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li class="">Пистолетная</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">980₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar6.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">E&L AKS-74UN</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Бренд: E&L</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">26 840₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar7.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">E&L AKS-74UN</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Бренд: E&L</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">28 300₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar8.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">TAG-203-МТ</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Производитель: TAG Innovation</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">57 000₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar9.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">ТАГ-67-МТ</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Страйкбольная граната</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">600₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar1.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Green gas 1000ml KPS</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Производитель: KPS</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">650₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar2.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Набор магазинов E&L RK-74</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Тип: механический</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">5 800₽</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/tovar3.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Green gas MARUI тип 650ml FL</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>Производитель: FL-airsoft</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">1 500₽</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
+      <div class="container">
+        <div class="row text-left p-2 pb-3">
+          <h4>Рекомендуемые товары</h4>
         </div>
+
+        <!--Каруселька-->
+        <div id="carousel-related-product">
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar1.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >Green gas 1000ml KPS</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Производитель: KPS</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">650₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar2.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >Набор магазинов E&L RK-74</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Тип: механический</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">5 800₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar3.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >Green gas MARUI тип 650ml FL</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Производитель: FL-airsoft</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">1 500₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar4.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >ПУ "Kick Shell"</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Производитель: TAG Innovation</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">7 200₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar5.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >Рукоятка для серии АК</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li class="">Пистолетная</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">980₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar6.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >E&L AKS-74UN</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Бренд: E&L</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">26 840₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar7.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >E&L AKS-74UN</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Бренд: E&L</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">28 300₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar8.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >TAG-203-МТ</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Производитель: TAG Innovation</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">57 000₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar9.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >ТАГ-67-МТ</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Страйкбольная граната</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">600₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar1.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >Green gas 1000ml KPS</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Производитель: KPS</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">650₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar2.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >Набор магазинов E&L RK-74</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Тип: механический</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">5 800₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 pb-3">
+            <div class="product-wap card rounded-0">
+              <div class="card rounded-0">
+                <img
+                  class="card-img rounded-0 img-fluid"
+                  src="assets/img/tovar3.png"
+                />
+                <div
+                  class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center"
+                >
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        class="btn btn-success text-white"
+                        href="shop-single.html"
+                        ><i class="far fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="far fa-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="btn btn-success text-white mt-2"
+                        href="shop-single.html"
+                        ><i class="fas fa-cart-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="shop-single.html" class="h3 text-decoration-none"
+                  >Green gas MARUI тип 650ml FL</a
+                >
+                <ul
+                  class="w-100 list-unstyled d-flex justify-content-between mb-0"
+                >
+                  <li>Производитель: FL-airsoft</li>
+                  <li class="pt-2">
+                    <span
+                      class="product-color-dot color-dot-red float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-blue float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-black float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-light float-left rounded-circle ml-1"
+                    ></span>
+                    <span
+                      class="product-color-dot color-dot-green float-left rounded-circle ml-1"
+                    ></span>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                </ul>
+                <p class="text-center mb-0">1 500₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Конец рекомендуемых -->
 
-
     <!-- Открытие футера -->
     <footer class="bg-dark" id="frw_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-success border-bottom pb-3 border-light logo">
+              Контакты
+            </h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li>
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                Иркутск, Декабрьских Событий, 102
+              </li>
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                <a class="text-decoration-none" href="tel:7(924)834-88-86"
+                  >+7(924)834-88-86</a
+                >
+              </li>
+              <li>
+                <i class="fa fa-envelope fa-fw"></i>
+                <a
+                  class="text-decoration-none"
+                  href="https://vk.com/petrucho_t/"
+                  target="_blank"
+                  rel="sponsored"
+                  >vk.com/petrucho_t</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">
+              Товары
+            </h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li><a class="text-decoration-none" href="#">Привода</a></li>
+              <li><a class="text-decoration-none" href="#">Пиротехника</a></li>
+              <li><a class="text-decoration-none" href="#">Шарики</a></li>
+              <li><a class="text-decoration-none" href="#">Сумки</a></li>
+              <li><a class="text-decoration-none" href="#">Тюнинг</a></li>
+              <li>
+                <a class="text-decoration-none" href="#">Пусковые устройства</a>
+              </li>
+              <li><a class="text-decoration-none" href="#">Патчи</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">
+              Дополнительно
+            </h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li><a class="text-decoration-none" href="#">Домой</a></li>
+              <li><a class="text-decoration-none" href="#">О нас</a></li>
+              <li><a class="text-decoration-none" href="#">Локация</a></li>
+              <li><a class="text-decoration-none" href="#">FAQs</a></li>
+              <li><a class="text-decoration-none" href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row text-light mb-4">
+          <div class="col-12 mb-3">
+            <div class="w-100 my-3 border-top border-light"></div>
+          </div>
+          <div class="col-auto me-auto">
+            <ul class="list-inline text-left footer-icons">
+              <li
+                class="list-inline-item border border-light rounded-circle text-center"
+              >
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://t.me/+XrQj3OBediU0NjUy"
+                  ><i class="fab fa-telegram-plane fa-lg fa-fw"></i
+                ></a>
+              </li>
+              <li
+                class="list-inline-item border border-light rounded-circle text-center"
+              >
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://vk.com/fr.workshop/"
+                  ><i class="fab fa-vk fa-lg fa-fw"></i
+                ></a>
+              </li>
+              <li
+                class="list-inline-item border border-light rounded-circle text-center"
+              >
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://vk.com/petrucho_t"
+                  ><i class="fas fa-envelope fa-lg fa-fw"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto">
+            <label class="sr-only" for="subscribeEmail">Email address</label>
+            <div class="input-group mb-2">
+              <input
+                type="text"
+                class="form-control bg-dark border-light"
+                id="subscribeEmail"
+                placeholder="Email address"
+              />
+              <div class="input-group-text btn-success text-light">
+                Subscribe
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100 bg-black py-3">
         <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Контакты</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                             Иркутск, Декабрьских Событий, 102
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:7(924)834-88-86">+7(924)834-88-86</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="https://vk.com/petrucho_t/" target="_blank" rel="sponsored">vk.com/petrucho_t</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Товары</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Привода</a></li>
-                        <li><a class="text-decoration-none" href="#">Пиротехника</a></li>
-                        <li><a class="text-decoration-none" href="#">Шарики</a></li>
-                        <li><a class="text-decoration-none" href="#">Сумки</a></li>
-                        <li><a class="text-decoration-none" href="#">Тюнинг</a></li>
-                        <li><a class="text-decoration-none" href="#">Пусковые устройства</a></li>
-                        <li><a class="text-decoration-none" href="#">Патчи</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Дополнительно</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Домой</a></li>
-                        <li><a class="text-decoration-none" href="#">О нас</a></li>
-                        <li><a class="text-decoration-none" href="#">Локация</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Контакты</a></li>
-                    </ul>
-                </div>
-
+          <div class="row pt-2">
+            <div class="col-12">
+              <p class="text-left text-light">
+                Copyright &copy; 2024 FRW (Fire Rabbit Workshop)
+              </p>
             </div>
-
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light"></div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://t.me/+XrQj3OBediU0NjUy"><i class="fab fa-telegram-plane fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://vk.com/fr.workshop/"><i class="fab fa-vk fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://vk.com/petrucho_t"><i class="fas fa-envelope fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
-        <div class="w-100 bg-black py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2024 FRW (Fire Rabbit Workshop)
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      </div>
     </footer>
     <!-- Закрытие футера -->
 
@@ -893,38 +1549,67 @@
     <!-- Start Slider Script -->
     <script src="assets/js/slick.min.js"></script>
     <script>
-        $('#carousel-related-product').slick({
-            infinite: true,
-            arrows: false,
-            slidesToShow: 4,
-            slidesToScroll: 3,
-            dots: true,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 3
-                    }
-                }
-            ]
-        });
+      $("#carousel-related-product").slick({
+        infinite: true,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 3,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 3,
+            },
+          },
+        ],
+      });
     </script>
     <!-- End Slider Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-</body>
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css" />
 
+    <div class="smart-basket__wrapper"></div>
+
+    <script src="./smartbasket/js/smartbasket.min.js"></script>
+
+    <script>
+      $(function () {
+        $(".smart-basket__wrapper").smbasket({
+          productElement: "card",
+          buttonAddToBasket: "button_basket",
+          productPrice: "price",
+
+          productQuantityWrapper: "kolvo",
+          smartBasketMinArea: "basket",
+          countryCode: "+7",
+          smartBasketCurrency: "₽",
+          smartBasketMinIconPath: "./smartbasket/img/shopping-basket-wight.svg",
+
+          agreement: {
+            isRequired: true,
+            isChecked: true,
+            isLink: "https://artstranger.ru/privacy.html",
+          },
+          nameIsRequired: false,
+        });
+      });
+    </script>
+  </body>
 </html>
