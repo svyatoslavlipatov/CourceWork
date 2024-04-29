@@ -109,13 +109,18 @@
                             </div>
                         </div>
                     </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#frw_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a>
+                    <div class="basket">
+                        <a
+                          class="nav-icon position-relative text-decoration-none"
+                          href="#"
+                        >
+                          <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                          <span
+                            class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"
+                            >&#x200b;</span
+                          >
+                        </a>
+                      </div>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
@@ -410,6 +415,37 @@
     <script src="assets/js/frw.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- Скрипты -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css" />
+
+    <div class="smart-basket__wrapper"></div>
+
+    <script src="./smartbasket/js/smartbasket.min.js"></script>
+
+    <script>
+      $(function () {
+        $(".smart-basket__wrapper").smbasket({
+          productElement: "card",
+          buttonAddToBasket: "button_basket",
+          productPrice: "price",
+
+          productQuantityWrapper: "kolvo",
+          smartBasketMinArea: "basket",
+          countryCode: "+7",
+          smartBasketCurrency: "₽",
+          smartBasketMinIconPath: "./smartbasket/img/shopping-basket-wight.svg",
+
+          agreement: {
+            isRequired: true,
+            isChecked: true,
+            isLink: "https://artstranger.ru/privacy.html",
+          },
+          nameIsRequired: false,
+        });
+      });
+    </script>
 </body>
 
 </html>
