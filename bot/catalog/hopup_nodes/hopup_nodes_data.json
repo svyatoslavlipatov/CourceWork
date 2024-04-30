@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Камера G36 SHS",
+    "pic": "./catalog/hopup_nodes/pics/Камера G36 SHS.jpg",
+    "price": "920р",
+    "brand": "SHS",
+    "material": "Пластик",
+    "description": "Страна производства: Китай"
+},
+  {
+    "name": "Камера M4 SHS",
+    "pic": "./catalog/hopup_nodes/pics/Камера M4 SHS.jpg",
+    "price": "3020р",
+    "brand": "SHS",
+    "material": "Алюминий",
+    "description": "Страна производства: Китай"
+},
+  {
+    "name": "Резинка HARD Prometheus",
+    "pic": "./catalog/hopup_nodes/pics/Резинка HARD Prometheus.jpg",
+    "price": "1300р",
+    "brand": "Prometheus",
+    "material": "Резина",
+    "description": "для 150-200м.с. пружин\nСтрана производства: Япония"
+},
+  {
+    "name": "Резинка SOFT Prometheus",
+    "pic": "./catalog/hopup_nodes/pics/Резинка SOFT Prometheus.jpg",
+    "price": "1480р",
+    "brand": "Prometheus",
+    "material": "Резина",
+    "description": "для 120-150м.с. пружин\nСтрана производства: Япония"
+},
+  {
+    "name": "Камера для AK Combat Union",
+    "pic": "./catalog/hopup_nodes/pics/Камера для AK Combat Union.jpg",
+    "price": "4200р",
+    "brand": "Combat union",
+    "material": "Алюминий",
+    "description": "Новая версия камеры хоп-апа, с возможностью сделать подсветку шаров, для стрельбы трассерными шариками.\n\nПодходит для приводов серии АК от фирм CYMA, LCT, E&L, G&G, Arcturus без доработок.\nДля приводов серии ВСС/ВАЛ нужно дорабатывать корпус \"приводa\"."
+},
+  {
+    "name": "Камера с нозлом для G36",
+    "pic": "./catalog/hopup_nodes/pics/Камера с нозлом для G36.jpg",
+    "price": "3600р",
+    "brand": "Combat union",
+    "material": "Алюминий",
+    "description": "Страна производства: Россия"
+},
+  {
+    "name": "Камера с нозлом для SVD",
+    "pic": "./catalog/hopup_nodes/pics/Камера с нозлом для SVD.jpg",
+    "price": "4400р",
+    "brand": "Combat union",
+    "material": "Алюминий",
+    "description": "Новая версия камеры хоп-апа, с возможностью сделать подсветку шаров, для стрельбы трассерными шариками.\n\nПодходит для приводов серии SVD/SVU от фирм CYMA, Real Sword.\n"
+},
+  {
+    "name": "Камер с нозлом для M4 M16",
+    "pic": "./catalog/hopup_nodes/pics/Камер с нозлом для M4 M16.jpg",
+    "price": "4200р",
+    "brand": "Combat union",
+    "material": "Алюминий",
+    "description": "Новая версия камеры хоп-апа, с возможностью сделать подсветку шаров, для стрельбы трассерными шариками.\n\nПодходит для приводов серии M4/M16 от фирм CYMA, G&G, Arcturus."
+}
+]

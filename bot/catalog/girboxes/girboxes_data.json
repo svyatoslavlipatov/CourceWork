@@ -1,0 +1,66 @@
+[
+  {
+        "name": "Стенки ver3 анодированные",
+        "pic": "./catalog/girboxes/pics/Стенки ver3 анодированные.jpg",
+        "price": "9400р",
+        "brand": "BullGear",
+        "material": "Алюминий",
+        "description": "Фрезированный гирбокс из цельного куска алюминия с анодированным покрытием. Предназначен для высоких тюнингов. Под направляющую не \"быстросъем\". Отверстия для втулок/подшипников 8 мм."
+  },
+  {
+        "name": "Плата переключения режимов огня М4 Prometheus",
+        "pic": "./catalog/girboxes/pics/Плата переключения режимов огня для М4 Prometheus.jpg",
+        "price": "1020р",
+        "brand": "SHS",
+        "material": "Пластик",
+        "description": "-"
+  },
+  {
+        "name": "Плата переключения режимов огня М4 SHS",
+        "pic": "./catalog/girboxes/pics/Плата переключения режимов огня М4 SHS.jpg",
+        "price": "260р",
+        "brand": "SHS",
+        "material": "Пластик",
+        "description": "-"
+  },
+  {
+        "name": "Стопор крючка для 2 ver. gearbox SHS",
+        "pic": "./catalog/girboxes/pics/Стопор крючка для 2 ver. gearbox SHS.jpg",
+        "price": "250р",
+        "brand": "SHS",
+        "material": "Пластик",
+        "description": "-"
+  },
+  {
+        "name": "Набор переключения режимов огня 3 ver. gearbox CYMA",
+        "pic": "./catalog/girboxes/pics/Набор переключения режимов огня 3 ver. gearbox CYMA.jpg",
+        "price": "600р",
+        "brand": "CYMA",
+        "material": "Металл",
+        "description": "-"
+  },
+  {
+        "name": "Стенки гирбокса ver.SVD Combat Union",
+        "pic": "./catalog/girboxes/pics/Стенки гирбокса ver. SVD Combat Union.jpg",
+        "price": "12400р",
+        "brand": "Combat Union",
+        "material": "Алюминий",
+        "description": "Фрезированный гирбокс из цельного куска алюминия. Предназначен для высоких тюнингов.\nПод направляющую \"быстросъем\", идёт в комплекте.\nОтверстия для втулок/подшипников 9 мм.(в комплект не входят).\nПодходит для приводов фирма CYMA и Real Sword/"
+  },
+  {
+        "name": "Стенки гирбокса ver.V2 Combat Union",
+        "pic": "./catalog/girboxes/pics/Стенки гирбокса ver.V2 Combat Union.jpg",
+        "price": "12200р",
+        "brand": "Combat Union",
+        "material": "Алюминий",
+        "description": "Фрезированный гирбокс из цельного куска алюминия. Предназначен для высоких тюнингов.\nПод направляющую \"быстросъем\", идёт в комплекте.\nОтверстия для втулок/подшипников 9 мм.(в комплект не входят).\n\nПодходит для приводов серии М4/М16 от фирм CYMA, LCT, VFC, King Arms, East Crane G&P, ARCTURUS(ставится стандартная контактная группа), G&G(внешние доработки гирбокса) и приводов серии НК416 от фирмы Diboys, VFC, G&G East Crane, ARCTURUS(ставится стандартная контактная группа).\n"
+  },
+  {
+        "name": "Стенки гирбокса ver.V3 Combat Union",
+        "pic": "./catalog/girboxes/pics/Стенки гирбокса ver.V3 Combat Union.jpg",
+        "price": "12000р",
+        "brand": "Combat Union",
+        "material": "Алюминий",
+        "description": "Фрезированный гирбокс из цельного куска алюминия. Предназначен для высоких тюнингов.\nПод направляющую \"быстросъем\", идёт в комплекте.\nОтверстия для втулок/подшипников 9 мм.(в комплект не входят).\n\nПодходит для приводов серии АК от фирм CYMA, LCT, E&L, VFC, а также в привода серии G36 от Umarex, Jing Gong, Tokyo Marui и в привода серии AUG от фирмы Tokyo Marui и им совместимые."
+  }
+]
