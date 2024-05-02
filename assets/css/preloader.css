@@ -1,0 +1,90 @@
+body{
+    overflow: hidden;
+}
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212934;
+    z-index: 1000;
+    transition: all .09s ease-out;
+    overflow: hidden;
+}
+/* Обычный */
+@font-face {
+	font-family: 'NTSomic'; 
+	src: local('NTSomic'),
+		url(/assets/fonts/ZeroCool-MVD9B.ttf); 
+}
+
+.pre_text{
+  font-family: 'NTSomic';
+  line-height: 90%;
+  color: #c52d18;
+  font-size:100px;
+  position: absolute;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  left: 22%;
+  top: 2%;
+  text-align: center;
+
+}
+.preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+.preloader.none{
+    display: none;
+}
+.preloader__loader, .preloader__percents {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    
+}
+
+#preloader {
+    -webkit-animation: seconds 1.0s forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 5s;
+    animation: seconds 1.0s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+  }
+  @-webkit-keyframes seconds {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes seconds {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.sixtern{
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  animation: runGear 4s linear infinite;
+  filter: invert(22%) sepia(83%) saturate(1819%) hue-rotate(349deg) brightness(81%) contrast(96%) drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+@keyframes runGear {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+     transform: rotate(360deg);
+  }
+}
