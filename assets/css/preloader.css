@@ -12,7 +12,6 @@ body{
     transition: all .09s ease-out;
     overflow: hidden;
 }
-/* Обычный */
 @font-face {
 	font-family: 'NTSomic'; 
 	src: local('NTSomic'),
