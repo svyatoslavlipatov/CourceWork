@@ -13,13 +13,13 @@ body{
     overflow: hidden;
 }
 @font-face {
-	font-family: 'NTSomic'; 
-	src: local('NTSomic'),
-		url(/assets/fonts/ZeroCool-MVD9B.ttf); 
+	font-family: 'ZeroCool'; 
+	src: local('ZeroCool'),
+		url(/assets/fonts/ZeroCool-MVD9B.ttf) format('woff'); 
 }
 
 .pre_text{
-  font-family: 'NTSomic';
+  font-family: 'ZeroCool';
   line-height: 90%;
   color: #c52d18;
   font-size:100px;
