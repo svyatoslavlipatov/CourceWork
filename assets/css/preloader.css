@@ -45,7 +45,7 @@ body{
     
 }
 
-/* #preloader {
+#preloader {
     -webkit-animation: seconds 1.0s forwards;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-delay: 5s;
@@ -68,7 +68,7 @@ body{
     100% {
       opacity: 0;
     }
-  } */
+  }
 
 .sixtern{
   width: 30%;
